@@ -1,0 +1,46 @@
+
+
+.border {
+	border: 1px solid red;
+}
+
+/* 弹性 横向布局  不重复 */
+.flex-row-nowarp {
+	display: flex;
+	flex-flow: row nowrap;
+}
+/* 弹性 纵向布局  不重复 */
+.flex-col-nowarp {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+
+/* 对齐-纵向 : 居中*/
+.align-col-center {
+	align-items: center;
+}
+/* 对齐-纵向 : 底部*/
+.align-col-end {
+	align-items: flex-end;
+}
+
+
+/* 对齐-横向 : 居中*/
+.align-row-center{
+	justify-content: center;
+}
+/* 对齐-横向 : 居右*/
+.align-row-right {
+	justify-content: flex-end;
+}
+
+/* 相对定位 */
+.postion-rela {
+	position: relative;
+}
+
+/* 绝对定位 */
+.postion-abs {
+	position: absolute;
+}

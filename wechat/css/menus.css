@@ -1,0 +1,63 @@
+
+#menus {
+	width: 100%;
+	height: 60px;
+	background-color: #FAFAFA;
+	}
+#m_chat{
+	flex: 1;
+	height: 60px;
+	
+}
+#m_find{
+	flex: 1;
+	height: 60px;
+	
+}
+#m_list{
+	flex: 1;
+	height: 60px;
+	
+}
+#m_my{
+	flex: 1;
+	height: 60px;
+}
+
+#chat{
+	height: 54px;
+	width: 54px;
+	background-image: url(../img/menus/微信.svg);
+	background-repeat: no-repeat;
+	margin-top: 2px;
+	margin-left: 40%;
+	
+}
+#list{
+	height: 54px;
+	width: 54px;
+	background-repeat: no-repeat;
+	margin-top: 2px;
+	margin-left: 40%;
+	background-image:url(../img/menus/list.svg);
+}
+#find{
+	height: 54px;
+	width: 54px;
+	background-repeat: no-repeat;
+	margin-top: 2px;
+	margin-left: 40%;
+	background-image: url(../img/menus/find.svg);
+	
+}
+
+#my{
+	height: 54px;
+	width: 54px;
+	background-repeat: no-repeat;
+	margin-top: 2px;
+	margin-left: 40%;
+	background-image: url(../img/menus/my.svg);
+	
+	
+}

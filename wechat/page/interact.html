@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<!--chat页面-->
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/util.css" />
+		
+		<link rel="stylesheet" href="../css/app_bar.css" />
+		<link rel="stylesheet" href="../css/title.css" />
+		<link rel="stylesheet" href="../css/dynamic.css" />
+		<link rel="stylesheet" href="../css/menus.css"/>
+		<link rel="stylesheet" href="../css/responsive.css" />
+		<link rel="stylesheet" href="../css/chat.css" />
+		
+		<!--interact页面-->
+		<link rel="stylesheet" href="../css/interact_title.css" />
+	</head>
+	<body>
+		
+		<div id="container">
+	     <!--app_bar层-->
+			<div id="app_bar"  class="flex-row-nowarp align-col-center">
+				
+				<div id="app_bar_left" class=" flex-row-nowarp align-col-center ">
+					<div id="singnal" class="flex-row-nowarp align-col-end">
+							<div class="has-singnal"></div>
+							<div class="has-singnal"></div>
+							<div class="has-singnal"></div>
+							<div class="no-singnal"></div>
+					</div>
+					<div id="operator  " class="flex-row-nowarp align-col-center  align-row-center">中国移动</div>
+					<div id="xg" class="flex-row-nowarp align-col-center align-row-center">4G</div>
+				</div>
+				<div id="app_bar_center" class=" flex-row-nowarp align-col-center align-row-center">12:00</div>
+				<div id="app_bar_right" class=" flex-row-nowarp align-col-center align-row-right ">
+					<div id="batteray_quantity">75%</div>
+					<div id="batteray" class=" flex-row-nowarp align-col-center">
+						<div id="batteray_body"></div>
+					</div>
+					<div id="batteray_head"></div>
+				</div>
+				
+			</div>
+			
+			
+	<!--title层-->
+			<div id="interact_title" >
+				
+				<!--title左边层-->
+				<div id="title_left" class="border">
+				   <div id="return" class="border align-row-center"
+				   	style="background-image: url(../img/interact/return.svg);">
+				   	<!-- <img src="../img/interact/return.svg" />-->
+				   </div>
+				</div>
+				
+				<!--title中间层-->
+				<div id="title_center" class="border">
+					<!--<div id="line"></div>
+-->					<div id="name" class=" align-col-center align-row-center" >
+	                                             小茴香</div>
+					
+			
+				</div>
+				
+				<!--title右边层-->
+				<div id="title_right" class="align-col-center align-row-right"  >
+				<div id="user" style="background-image:url(../img/interact/yitain_用户.svg) ;"></div>
+				</div>
+			</div>
+	
+	<!--dynamic层-->
+	      <div id="dynamic">
+			
+			</div>
+
+			
+	<!--menus层-->
+			<div id="menus"  class="border">
+				menus
+			</div>
+			
+		</div>
+		
+		
+	</body>
+</html>
+
+<!--js调用-->
+<script type="text/javascript" src="../js/app_bar.js" ></script>
+
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type="text/javascript" src="../lib/chat.js"></script>
+<script type="text/javascript" src="../lib/title.js"></script>

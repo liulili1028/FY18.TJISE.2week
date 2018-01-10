@@ -1,0 +1,13 @@
+
+@media  screen and (max-width: 320px)  {
+	
+	#title {
+		font-size: 90%;
+
+	}
+	
+	#add {
+		background-size: 60%;
+	}
+	
+}

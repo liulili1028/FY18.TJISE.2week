@@ -1,0 +1,121 @@
+
+#dynamic {
+	width: 100%;
+	height: 200px;
+	background-color: #EEEEEE;
+	flex: 1;
+	display: flex;
+    flex-flow: row nowrap;
+	font-size: 10px;
+   display: inline-block;
+
+	overflow: scroll;
+}
+
+
+
+/*头像*/
+#language_photo{
+	           height: 46px;
+				width: 46px;
+	
+				margin-top:4px ;
+			
+				margin-left: 4px;
+				/*vertical-align: top;*/
+	
+	
+}
+/*语言条目分区*/
+#language_left{
+	
+	flex: 1;
+	height: 48px;
+}
+#language_left div{
+	
+	margin: 0.1px;
+}
+#language_center{
+	flex: 6;
+	height: 48px;
+	
+}
+#language_center div{
+	margin: 0.1px;
+}
+#language_right{
+	flex: 1;
+	height: 48px;
+	width: 60px;
+}
+
+#language_right div{
+	margin: 0.1px;
+}
+/*语言栏*/
+#language_bar{
+	height: 48px;
+	width: 100%;
+    background-color: #FAFAFA;
+   margin: 0;
+	padding: 10px;
+   margin-top: 2px;
+   position: relative;
+	
+}
+/*语言内容*/
+#language_content{
+	font-size: 100%;
+	text-align: center;
+	height: 22px;
+	width: 100px;
+    background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	margin-left: 30px;
+}
+.language_time{
+	height: 20px;
+	width: 100px;
+	font-weight: 400;
+	font-size: 100%;
+	color: #9E9E9E;
+	text-align: left;
+
+	line-height: 20px;   
+}
+/*聊天内容*/
+.nickname {
+	height: 16px;
+	width: 100%;
+	font-size: 100%;
+
+}
+.chat_msg {
+	height: 26px;
+	/*width: auto;*/
+	flex: 1;
+	color: #757575;
+	font-size: 90%;
+	line-height: 20px;
+}
+.silent {
+	height: 20px;
+	width: 100%;
+	background-image: url(../img/chat/disturb.svg) ;
+	background-repeat: no-repeat;
+	background-size: 20%;
+	background-position: bottom right;
+}
+
+/*第二次以后语言栏*/
+#language_bar_left{
+	height: 48px;
+	width: 100%;
+    background-color: #FAFAFA;
+    margin-top: 1px;
+	padding: 8px;
+	clear: #9E9E9E;
+  
+}

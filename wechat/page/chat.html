@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/util.css" />
+		
+		<link rel="stylesheet" href="../css/app_bar.css" />
+		<link rel="stylesheet" href="../css/title.css" />
+		<link rel="stylesheet" href="../css/dynamic.css" />
+		
+		<link rel="stylesheet" href="../css/chat.css" />
+		
+		<link rel="stylesheet" href="../css/menus.css"/>
+		
+		<link rel="stylesheet" href="../css/responsive.css" />
+		
+	</head>
+	<body>
+		
+		<div id="container">
+	     <!--app_bar层-->
+			<div id="app_bar"  class="flex-row-nowarp align-col-center">
+				
+				<div id="app_bar_left" class=" flex-row-nowarp align-col-center ">
+					<div id="singnal" class="flex-row-nowarp align-col-end">
+							<div class="has-singnal"></div>
+							<div class="has-singnal"></div>
+							<div class="has-singnal"></div>
+							<div class="no-singnal"></div>
+					</div>
+					<div id="operator  " class="flex-row-nowarp align-col-center  align-row-center">中国移动</div>
+					<div id="xg" class="flex-row-nowarp align-col-center align-row-center">4G</div>
+				</div>
+				<div id="app_bar_center" class=" flex-row-nowarp align-col-center align-row-center">12:00</div>
+				<div id="app_bar_right" class=" flex-row-nowarp align-col-center align-row-right ">
+					<div id="batteray_quantity">75%</div>
+					<div id="batteray" class=" flex-row-nowarp align-col-center">
+						<div id="batteray_body"></div>
+					</div>
+					<div id="batteray_head"></div>
+				</div>
+				
+			</div>
+			
+			
+	<!--title层-->
+			<div id="title"  >
+				<div id="title_left"></div>
+				<div id="title_center">消息(6)</div>
+				<div id="title_right" class="align-row-right flex-row-nowarp align-row-right postion-rela">
+					<div id="add"></div>
+					<div id="title_submenu" class="border postion-abs">
+						<div id="trangle" class="postion-rela"></div>
+						<!--菜单层中的群聊条目-->
+						<div id="substance" class=" flex-row-nowarp align-row-center ">
+						<!--左边图片部分-->
+						<div id="menus_left">
+					   	  <div id="menus_photo" 
+					   	  	style="background-image: url(../img/title/group_chat.svg);" >
+					     </div>
+						</div>
+						<!--右边文字部分-->
+						<div id="menus_right"class=" flex-row-nowarp align-col-center">
+							<div id="menus_content" class=" flex-col-nowarp">
+								发起群聊
+							</div>
+						</div>
+					</div>
+					<!--菜单层中的添加朋友条目-->
+					<div id="substance" class=" flex-row-nowarp align-row-center ">
+						<!--左边图片部分-->
+						<div id="menus_left">
+					   	  <div id="menus_photo"
+					   	  	style="background-image: url(../img/title/add_friend.svg);" >
+					     </div>
+						</div>
+						<!--右边文字部分-->
+						<div id="menus_right"class="flex-row-nowarp align-col-center">
+							<div id="menus_content" class=" flex-col-nowarp">
+								添加朋友
+							</div>
+						</div>
+					</div>
+					<!--菜单层中扫一扫-->
+					<div id="substance" class=" flex-row-nowarp align-row-center ">
+						<!--左边图片部分-->
+						<div id="menus_left">
+					   	  <div id="menus_photo"
+					   	  	style="background-image: url(../img/title/sweep.svg);" >
+					     </div>
+						</div>
+						<!--右边文字部分-->
+						<div id="menus_right"class="flex-row-nowarp align-col-center">
+							<div id="menus_content" class=" flex-col-nowarp">
+								扫一扫
+							</div>
+						</div>
+					</div>
+					<!--菜单层中的收付款-->
+					<div id="substance" class=" flex-row-nowarp align-row-center ">
+						<!--左边图片部分-->
+						<div id="menus_left">
+					   	  <div id="menus_photo"
+					   	  	style="background-image: url(../img/title/payment.svg);" >
+					     </div>
+						</div>
+						<!--右边文字部分-->
+						<div id="menus_right"class="flex-row-nowarp align-col-center">
+							<div id="menus_content" class=" flex-col-nowarp">
+								收付款
+							</div>
+						</div>
+					</div>
+					
+					
+						
+					</div>
+				</div>
+			</div>
+	
+	<!--dynamic层-->
+	      <div id="dynamic">
+	      	<!--搜索条目-->
+			<div id="search_area" class=" flex-row-nowarp align-col-center align-row-center ">
+					
+					<div id="search" class="flex-row-nowarp align-col-center align-row-center">
+						<div id="search_center" class="flex-row-nowarp align-col-center align-row-center ">
+							<div id="search_img"></div>
+							<div class="flex-row-nowarp align-col-center align-row-center">搜索</div>
+						</div>
+						
+						<div id="search_by_audio" ></div>
+					</div>
+				
+					
+				</div>
+	<!--语言框-->
+				<div class="container" >
+					<!--第一条语言栏-->
+					<div id="language_bar" class=" flex-row-nowarp align-col-center align-row-center ">
+						<!--语言条目左-->
+					   <div id="language_left" >
+					   	  <div id="language_photo" class="postion-rela"
+					   	  	style="background-image: url(../img/dynamic/logo.02.svg);" >
+					   	  <div class="msg_alert"></div>
+					   	  	
+					   	  </div>
+					   </div>
+					   
+					   <!--语言条目中-->
+					   <div id="language_center" class=" flex-row-nowarp align-col-center">
+					   	    <div id="language_content" class="flex-col-nowarp">
+					   	      <div class=" nickname">订阅号</div>
+					   	    <div class="chat_msg">西南财经大学</div>
+					   	    	
+					   	    </div>
+					   	    
+					   
+					   </div>
+					   <!--语言条目右-->
+					   <div id="language_right" class=" flex-col-nowarp ">
+					   	
+					   		<div class="language_time">12:43</div>
+					   	    <div class="silent"></div>
+					   	
+					   	
+					   </div>
+					   
+			     	</div>
+			     	<!--第二个语言栏-->
+			     <div id="language_bar" class=" flex-row-nowarp align-col-center align-row-center ">
+						<!--语言条目左-->
+					   <div id="language_left">
+					   	  <div id="language_photo"  class="postion-rela"
+					   	  	style="background-image: url(../img/dynamic/logo.03.svg);" >
+					   	  <div class="has_infom_alert">
+					   	  	<div class="alert_num">6</div>
+					   	  		
+					   	  </div>
+					   	  </div>
+					   </div>
+					   
+					   <!--语言条目中-->
+					   <div id="language_center" class=" flex-row-nowarp align-col-center">
+					   	    <div id="language_content" class=" flex-col-nowarp">
+					   	      <div class=" nickname">罗伏</div>
+					   	    <div class="chat_msg">寒假有什么打算☺</div>
+					   	    	
+					   	    </div>
+					   	    
+					   
+					   </div>
+					   <!--语言条目右-->
+					   <div id="language_right" class=" flex-col-nowarp">
+					   	
+					   	<div class="language_time">15:06</div>
+					   	<div class="silent " style="background-image: url(../img/dynamic/免打扰 (1).svg);"></div>
+					   </div>
+					   
+			     	</div>
+
+                    <!--第三条语言栏-->
+			     	 <div id="language_bar" class=" flex-row-nowarp align-col-center align-row-center ">
+						<!--语言条目左-->
+					   <div id="language_left" >
+					   	  <div id="language_photo" class="postion-rela"
+					   	  	style="background-image: url(../img/dynamic/logo.04.svg);" >
+					   	   <div class="has_infom_alert">
+					   	  	<div class="alert_num">3</div>
+					   	  		
+					   	  </div>
+					   	  </div>
+					   </div>
+					   
+					   <!--语言条目中-->
+					   <div id="language_center" class="flex-row-nowarp align-col-center">
+					   	    <div id="language_content" class=" flex-col-nowarp">
+					   	      <div class=" nickname">小茴香</div>
+					   	    <div class="chat_msg">悦悦：去玩喽</div>
+					   	    	
+					   	    </div>
+					   	    
+					   
+					   </div>
+					   <!--语言条目右-->
+					   <div id="language_right" class=" flex-col-nowarp">
+					   	
+					   	<div class="language_time">10:03</div>
+					   	<div class="silent " style="background-image: url(../img/dynamic/免打扰 (1).svg);"></div>
+					   </div>
+					   
+			     	</div>
+                    <!--第四条语言栏-->
+			     		<div id="language_bar" class=" flex-row-nowarp align-col-center align-row-center ">
+						<!--语言条目左-->
+					   <div id="language_left">
+					   	  <div id="language_photo" class="postion-rela"
+					   	  	
+					   	  	style="background-image: url(../img/dynamic/logo.05.svg);" >
+					   	   <div class="msg_alert">
+					   	  						   	  		
+					   	  </div>
+					   	  </div>
+					   </div>
+					   
+					   <!--语言条目中-->
+					   <div id="language_center" class=" flex-row-nowarp align-col-center">
+					   	    <div id="language_content" class=" flex-col-nowarp">
+					   	      <div class=" nickname">也许牢记</div>
+					   	    <div class="chat_msg">张晓丽：别说话</div>
+					   	    	
+					   	    </div>
+					   	    
+					   
+					   </div>
+					   <!--语言条目右-->
+					   <div id="language_right" class="flex-col-nowarp">
+					   	
+					   	<div class="language_time">9:26</div>
+					   	<div class="silent " style="background-image: url(../img/dynamic/免打扰 (1).svg);"></div>
+					   </div>
+					   
+			     	</div>
+			     	<!--第五条语言栏-->
+	                    <div id="language_bar" class=" flex-row-nowarp align-col-center align-row-center ">
+						<!--语言条目左-->
+					   <div id="language_left">
+					   	  <div id="language_photo" 
+					   	  	style="background-image: url(../img/dynamic/logo.04.svg);" >
+					   	  </div>
+					   </div>
+					   
+					   <!--语言条目中-->
+					   <div id="language_center" class=" flex-row-nowarp align-col-center">
+					   	    <div id="language_content" class=" flex-col-nowarp">
+					   	      <div class=" nickname">会宁游子部落只...</div>
+					   	    <div class="chat_msg">孙艳霞：群主发红包.</div>
+					   	    	
+					   	    </div>
+					   	    
+					   
+					   </div>
+					   <!--语言条目右-->
+					   <div id="language_right" class=" flex-col-nowarp">
+					   	
+					   	<div class="language_time">7:30</div>
+					   	<div class="silent " style="background-image: url(../img/dynamic/免打扰 (1).svg);"></div>
+					   </div>
+					   
+			     	</div>
+			     	<!--第六条语言栏-->
+	                 <div id="language_bar" class=" flex-row-nowarp align-col-center align-row-center ">
+						<!--语言条目左-->
+					   <div id="language_left" >
+					   	  <div id="language_photo"  
+					   	  	style="background-image: url(../img/dynamic/logo.06.svg);" >
+					   	  </div>
+					   </div>
+					   
+					   <!--语言条目中-->
+					   <div id="language_center" class=" flex-row-nowarp align-col-center">
+					   	    <div id="language_content" class=" flex-col-nowarp">
+					   	      <div class=" nickname">他乡遇故知</div>
+					   	    <div class="chat_msg">小莲：去看电影桃子</div>
+					   	    	
+					   	    </div>
+					   	    
+					   
+					   </div>
+					   <!--语言条目右-->
+					   <div id="language_right" class=" flex-col-nowarp">
+					   	
+					   	<div class="language_time">昨天</div>
+					   	<div class="silent " style="background-image: url(../img/dynamic/免打扰 (1).svg);"></div>
+					   </div>
+					   
+			     	</div>
+			     	<!--第七条语言栏-->
+	                <div id="language_bar" class=" flex-row-nowarp align-col-center align-row-center ">
+						<!--语言条目左-->
+					   <div id="language_left" >
+					   	  <div id="language_photo"  
+					   	  	style="background-image: url(../img/dynamic/logo.04.svg);" >
+					   	  </div>
+					   </div>
+					   
+					   <!--语言条目中-->
+					   <div id="language_center" class=" flex-row-nowarp align-col-center">
+					   	    <div id="language_content" class=" flex-col-nowarp">
+					   	      <div class=" nickname">琪琪</div>
+					   	    <div class="chat_msg">小名：去看电影桃子</div>
+					   	    	
+					   	    </div>
+					   	    
+					   
+					   </div>
+					   <!--语言条目右-->
+					   <div id="language_right" class=" flex-col-nowarp">
+					   	
+					   	<div class="language_time">昨天</div>
+					   	<div class="silent " style="background-image: url(../img/dynamic/免打扰 (1).svg);"></div>
+					   </div>
+					   
+			     	</div>
+		           <!--第八条语言栏-->
+		               <div id="language_bar" class=" flex-row-nowarp align-col-center align-row-center ">
+						<!--语言条目左-->
+					   <div id="language_left" >
+					   	  <div id="language_photo"  
+					   	  	style="background-image: url(../img/dynamic/logo.07.svg);" >
+					   	  </div>
+					   </div>
+					   
+					   <!--语言条目中-->
+					   <div id="language_center" class=" flex-row-nowarp align-col-center">
+					   	    <div id="language_content" class=" flex-col-nowarp">
+					   	      <div class=" nickname">他乡遇故知</div>
+					   	    <div class="chat_msg">小莲：去看电影桃子</div>
+					   	    	
+					   	    </div>
+					   	    
+					   
+					   </div>
+					   <!--语言条目右-->
+					   <div id="language_right" class=" flex-col-nowarp">
+					   	
+					   	<div class="language_time">昨天</div>
+					   	<div class="silent " style="background-image: url(../img/dynamic/免打扰 (1).svg);"></div>
+					   </div>
+					   
+			     	</div>
+		            <!--第九条语言栏-->
+		                <div id="language_bar" class=" flex-row-nowarp align-col-center align-row-center ">
+						<!--语言条目左-->
+					   <div id="language_left" >
+					   	  <div id="language_photo"  
+					   	  	style="background-image: url(../img/dynamic/logo.01.svg);" >
+					   	  </div>
+					   </div>
+					   
+					   <!--语言条目中-->
+					   <div id="language_center" class=" flex-row-nowarp align-col-center">
+					   	    <div id="language_content" class=" flex-col-nowarp">
+					   	      <div class=" nickname">花花</div>
+					   	    <div class="chat_msg">小月：好美啊</div>
+					   	    	
+					   	    </div>
+					   	    
+					   
+					   </div>
+					   <!--语言条目右-->
+					   <div id="language_right" class=" flex-col-nowarp">
+					   	
+					   	<div class="language_time">昨天</div>
+					   	<div class="silent " style="background-image: url(../img/dynamic/免打扰 (1).svg);"></div>
+					   </div>
+					   
+			     	</div>
+		           
+		           
+				</div>			
+	         </div>
+		 
+		 
+		 	
+		 	
+		 	
+		 <!--menus层-->
+			<div id="menus"  class=" flex-row-nowarp align-col-center">
+				<div id="m_chat">
+					<div id="chat" class="postion-rela">
+						 <div class="has_infom_alert">
+					   	  	<div class="alert_num">9</div>
+					   	  		
+					   	  </div>
+					</div>
+				</div>
+				<div id="m_list">
+					<div id="list" >
+					</div>
+				</div>
+				<div id="m_find" >
+					<div id="find"></div>
+				</div>
+				<div id="m_my">
+					<div id="my" ></div>
+				</div>
+			</div>
+		
+		
+		
+		</div>
+	</body>
+</html>
+
+<!--js调用-->
+<script type="text/javascript" src="../lib/jquery.js" ></script>
+
+<script type="text/javascript" src="../js/app_bar.js" ></script>
+
+<script type="text/javascript" src="../js/title.js" ></script>
+
+<script type="text/javascript" src="../js/chat.js" ></script>	
