@@ -205,7 +205,8 @@
 			     	</div>
 
                     <!--第三条语言栏-->
-			     	 <div id="language_bar" class=" flex-row-nowarp align-col-center align-row-center ">
+			     	 <div id="language_bar" onclick="window.location.href='interact.html';return false"
+			     	 	class=" flex-row-nowarp align-col-center align-row-center ">
 						<!--语言条目左-->
 					   <div id="language_left" >
 					   	  <div id="language_photo" class="postion-rela"
@@ -412,23 +413,34 @@
 		 	
 		 <!--menus层-->
 			<div id="menus"  class=" flex-row-nowarp align-col-center">
-				<div id="m_chat">
-					<div id="chat" class="postion-rela">
+				<!--微信-->
+				<div id="m_chat" class="flex-col-nowarp " >	
+					<div id="chat" class="postion-rela flex-col-nowarp">
 						 <div class="has_infom_alert">
-					   	  	<div class="alert_num">9</div>
-					   	  		
+					   	  	<div class="alert_num">9</div>			   	  	
 					   	  </div>
+					   	  <div id="wechat_text">微信</div>
 					</div>
+						
 				</div>
-				<div id="m_list">
+				<!--通讯录-->
+				<div id="m_list" class="postion-rela flex-col-nowarp">
 					<div id="list" >
+						<div id="wechat_text">通讯录</div>
+					</div>
+					 
+				</div>
+				<!--发现-->
+				<div id="m_find" class="postion-rela flex-col-nowarp" >
+					<div id="find">
+						<div id="wechat_text">发现</div>
 					</div>
 				</div>
-				<div id="m_find" >
-					<div id="find"></div>
-				</div>
-				<div id="m_my">
-					<div id="my" ></div>
+				<!--我-->
+				<div id="m_my" class="postion-rela flex-col-nowarp">
+					<div id="my" >
+						<div id="wechat_text">我</div>
+					</div>
 				</div>
 			</div>
 		
