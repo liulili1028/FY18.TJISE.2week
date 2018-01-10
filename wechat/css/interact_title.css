@@ -56,10 +56,10 @@
 }
 #user{
 	height: 40px;
-	width: 40px;
+	width: 30px;
 	background-position: center;
 	background-size: 70%;
 	background-repeat: no-repeat;
-	margin-right: 12px;
-    position: absolute;
+	margin-right: 10px;
+
 }

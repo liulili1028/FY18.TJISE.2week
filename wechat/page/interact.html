@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="../css/menus.css"/>
 		<link rel="stylesheet" href="../css/responsive.css" />
 		<link rel="stylesheet" href="../css/chat.css" />
-		
+		<link rel="stylesheet" href="../css/wrap.css" />
 		<!--interact页面-->
 		<link rel="stylesheet" href="../css/interact_title.css" />
 	</head>
@@ -51,15 +51,15 @@
 			<div id="interact_title" >
 				
 				<!--title左边层-->
-				<div id="title_left" class="border">
-				   <div id="return" class="border align-row-center"
+				<div id="title_left">
+				   <div id="return" class="align-row-center"
 				   	style="background-image: url(../img/interact/return.svg);">
 				   	<!-- <img src="../img/interact/return.svg" />-->
 				   </div>
 				</div>
 				
 				<!--title中间层-->
-				<div id="title_center" class="border">
+				<div id="title_center">
 					<!--<div id="line"></div>
 -->					<div id="name" class=" align-col-center align-row-center" >
 	                                             小茴香</div>
@@ -68,20 +68,34 @@
 				</div>
 				
 				<!--title右边层-->
-				<div id="title_right" class="align-col-center align-row-right"  >
+				<div id="title_right" class="align-row-right flex-row-nowarp  postion-abs"  >
 				<div id="user" style="background-image:url(../img/interact/yitain_用户.svg) ;"></div>
 				</div>
 			</div>
 	
 	<!--dynamic层-->
 	      <div id="dynamic">
-			
+	        <div id="wrap" class="border"></div>
+	  
 			</div>
 
 			
 	<!--menus层-->
-			<div id="menus"  class="border">
-				menus
+			<div id="menus"  class="right flex-row-nowarp">
+				<!--菜单左边-->
+			
+						<div id="speech" ></div>
+				
+			<!--菜单中间-->
+			
+				<input type="text" id="content"/>
+			
+				<!--菜单右边-->
+				
+					<div id="smiling"></div>
+				 <input type="button" id="btn" value="发送" />
+				
+				
 			</div>
 			
 		</div>
@@ -91,8 +105,13 @@
 </html>
 
 <!--js调用-->
+<script type="text/javascript" src="../lib/jquery.js" ></script>
+
 <script type="text/javascript" src="../js/app_bar.js" ></script>
 
-<script type="text/javascript" src="../lib/jquery.js"></script>
-<script type="text/javascript" src="../lib/chat.js"></script>
-<script type="text/javascript" src="../lib/title.js"></script>
+<script type="text/javascript" src="../js/title.js" ></script>
+
+<script type="text/javascript" src="../js/chat.js" ></script>	
+<!--robot调用-->
+	
+    <script type="text/javascript" src="../js/robot.js"></script>

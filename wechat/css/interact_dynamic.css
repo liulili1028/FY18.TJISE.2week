@@ -1,0 +1,12 @@
+#interact_dynamic{
+	width: 100%;
+	height: 200px;
+	background-color: #EEEEEE;
+	flex: 1;
+	display: flex;
+    flex-flow: row nowrap;
+	font-size: 10px;
+   display: inline-block;
+
+	overflow: scroll;
+	}
